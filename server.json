@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "eu.ansvar/portuguese-financial-regulation-mcp",
+  "description": "Query CMVM regulamentos, Banco de Portugal avisos, and ASF normas regulamentares — provisions, enforcement actions, and sourcebook lookup",
+  "repository": {
+    "url": "https://github.com/Ansvar-Systems/portuguese-financial-regulation-mcp",
+    "source": "github"
+  },
+  "homepage": "https://ansvar.eu",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "keywords": [
+    "cmvm",
+    "banco-de-portugal",
+    "asf",
+    "portuguese-financial-regulation",
+    "regulamentos",
+    "avisos",
+    "compliance",
+    "enforcement",
+    "mcp",
+    "ansvar"
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@ansvar/portuguese-financial-regulation-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
